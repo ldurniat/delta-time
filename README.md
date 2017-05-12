@@ -2,7 +2,7 @@
 
 *delta time* is simple module for time based animations for [Corona SDK](https://coronalabs.com/corona-sdk/). It is supposed to work with [*enterFrame*](https://docs.coronalabs.com/api/event/enterFrame/index.html) listener. 
 
-Whatever you restart animations you need call ``` dt.restart() ``` function.
+Whatever you stops animation you need call ``` dt.restart() ``` function before restart it.
 
 #### Example:
 
