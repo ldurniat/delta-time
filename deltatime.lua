@@ -15,7 +15,6 @@ function M.getTime()
 
 		local curTime = getTimer()
 		dt = curTime - lastTime
-		dt = dt / 1000 
 		lastTime = curTime	
 
 	end	
